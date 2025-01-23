@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 22px;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-inline-start: 20px;
+}
+.trump {
+  border-radius: 50%;
+  width: 400px;
+}
+.button {
+  margin-top: 10px; /* Adjust space between image and button */
+  font-size: auto;
+}
+.container {
+  display: flex;
+  flex-direction: column;  /* Stack the image and button vertically */
+  align-items: center;     /* Center the children horizontally */
+  justify-content: center; /* Center the children vertically (optional, depending on your design) */
+  height: 100vh;           /* Full viewport height */
+}
